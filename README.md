@@ -4,15 +4,15 @@ Welcome to the **Agentic AI Crash Course**! This guide will help you set up your
 
 .env sample would be:
 
-GOOGLE_API_KEY=
----
-OPENAI_API_KEY=
----
-LANGSMITH_API_KEY=
----
-LANGSMITH_TRACING=
----
-LANGSMITH_ENDPOINT=
----
-LANGSMITH_PROJECT=
----
+# Optional: For Gemini / Google models (via langchain-google-genai)
+GOOGLE_API_KEY=your_google_api_key_here
+
+# Required: For OpenAI models
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Required: For LangSmith observability and tracing
+LANGSMITH_API_KEY=your_langsmith_api_key_here
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+LANGSMITH_PROJECT=LangGraphCrashCourse
+
