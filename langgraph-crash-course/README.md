@@ -5,3 +5,4 @@
 2. Follow YouTube video instructions to install uv, PyCharm pro and other packages
 
 
+# It's just for learning.
