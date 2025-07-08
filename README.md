@@ -12,7 +12,11 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 # Required: For LangSmith observability and tracing
 LANGSMITH_API_KEY=your_langsmith_api_key_here
+-
 LANGSMITH_TRACING=true
+-
 LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+-
 LANGSMITH_PROJECT=LangGraphCrashCourse
+-
 
